@@ -1,0 +1,106 @@
+﻿
+
+.logo {
+    height: 650px;
+    background-image: url(pic1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 60px;
+    color: chocolate;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.details {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    display: none;
+    z-index: 10;
+}
+
+.details .close {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+.details .card img{
+    max-height: 350px;
+}
+
+
+.card img {
+    max-height: 200px;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+
+.details a {
+    text-decoration:none;
+    color: #fff;
+}
+
+.marie60 {
+    display: none;
+}
+
+
+.card {
+    position: relative;
+ 
+}
+
+.card .abs {
+    position: absolute;
+    bottom: 50px;
+    height: 100px;
+  
+}
+
+.card .not{
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    top: 10px;
+    right: 10px;
+    color: red;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+
+
+.carousel-item{
+    height: 200px;
+}
+.testmonial {
+    height: 100px;
+    text-align: center;
+}
+
+
+.person1 img {
+    height: 60px;
+    border-radius: 50%;
+}
