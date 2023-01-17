@@ -13,15 +13,52 @@ li {
 }
 
 .title {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     line-height: 60px;
-    color: chocolate;
+    color: blue;
     font-weight: bold;
     font-size: 30px;
 }
 
 
+
+.offers {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 60px;
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.onekind .image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image img {
+    width: 100px;
+}
+button a{
+    color: #fff;
+}
+
+button a:hover{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+li {
+     list-style-type:none;
+     margin-bottom: 10px;
+}
+
+span {
+    color:red
+}
 .details {
     background-color: white;
     height: 100%;
@@ -91,9 +128,31 @@ li {
 }
 
 
-.carousel-item{
+.testmonial .carousel-item{
     height: 200px;
 }
+
+.testmonial1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.testmonial1 .carousel-item{
+    height: 300px;
+}
+
+
+
+.testmonial1 img{
+    height: 300px;
+    width: 100px;
+}
+
+.testmonial1 span {
+    background-color:darkslategray;
+    border-radius:50%;
+}
+
+
 .testmonial {
     height: 100px;
     text-align: center;
