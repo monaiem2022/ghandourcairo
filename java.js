@@ -275,3 +275,10 @@ close.onclick = function () {
     details.style.display = 'none'
 }
 
+
+
+
+$('#button').on('click' , function () {
+
+    $('#image').clone().appendTo('#ahmed')
+})
